@@ -1757,7 +1757,7 @@ contract MasterChef is Ownable, ReentrancyGuard {
     event RewardLockedUp(address indexed user, uint256 indexed pid, uint256 amountLockedUp);
 
     constructor(
-        MiiSwap _miix,
+        MiiSwapToken _miix,
         uint256 _startBlock,
         uint256 _miixPerBlock
     ) public {
